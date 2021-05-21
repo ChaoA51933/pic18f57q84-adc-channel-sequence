@@ -61,7 +61,7 @@ The pins are configured as follows:
 ### Interrupt Settings
 
 Just one interrupt from ADC Context 4.
-<br><img src="images/Interrupt_Setting" >
+<br><img src="images/Interrupt_Setting.PNG" >
 
 ### Configuration Changed
 
