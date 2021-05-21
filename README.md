@@ -5,19 +5,16 @@ In this project the Analog-to-Digital Converter with Computation and Context Mod
 <br><img src="images/hardware_platform.jpg" width="600">
 
 ## Software Used
-- MPLAB® X IDE 5.30 or newer [(microchip.com/mplab/mplab-x-ide)](http://www.microchip.com/mplab/mplab-x-ide)
-- MPLAB® XC8 2.10 or newer compiler [(microchip.com/mplab/compilers)](http://www.microchip.com/mplab/compilers)
-- MPLAB® Code Configurator (MCC) 3.95 or newer [(microchip.com/mplab/mplab-code-configurator)](https://www.microchip.com/mplab/mplab-code-configurator)
-- MPLAB® Code Configurator (MCC) PIC10/PIC12/PIC16/PIC18 library v1.78.1 or newer [(microchip.com/mplab/mplab-code-configurator)](https://www.microchip.com/mplab/mplab-code-configurator)
+- MPLAB® X IDE 5.45 or newer [(microchip.com/mplab/mplab-x-ide)](http://www.microchip.com/mplab/mplab-x-ide)
+- MPLAB® XC8 2.32 or newer compiler [(microchip.com/mplab/compilers)](http://www.microchip.com/mplab/compilers)
+- MPLAB® Code Configurator (MCC) 4.10 or newer [(microchip.com/mplab/mplab-code-configurator)](https://www.microchip.com/mplab/mplab-code-configurator)
+- MPLAB® Code Configurator (MCC) Device Libraries PIC10/PIC12/PIC16/PIC18 library v1.81.7 or newer [(microchip.com/mplab/mplab-code-configurator)](https://www.microchip.com/mplab/mplab-code-configurator)
+- Microchip PIC18F-Q Series Device Support (1.1.185) or newer [(packs.download.microchip.com/)](https://packs.download.microchip.com/)
 
 
 ## Hardware Used
-- PIC16F18446 PDIP20 with Curiosity Development Board [(DM164137)](https://www.microchip.com/Developmenttools/ProductDetails/DM164137)
-- UV click board™ [(MIKROE-1677)](https://www.mikroe.com/uv-click)
-- Generic earphones
-- 3.5mm female jack break-out board
-- 1kOhm resistor
-
+- PIC18F57Q84 Curiosity Nano [(DM182029)](https://www.microchip.com/Developmenttools/ProductDetails/DM182029)
+- Digital Power Development Board [(DM330029)](https://www.microchip.com/Developmenttools/ProductDetails/DM182029)
 
 ## Setup
 
