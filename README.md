@@ -19,7 +19,6 @@ In this project the Analog-to-Digital Converter with Computation and Context Mod
 In this demo,
 
 - PIC18F57Q84 MCU is used to read an voltage on ANA0 & ANA1.
-
 <br><img src="images/hardware_platform.jpg" width="600">
 
 ### MCC Settings
@@ -29,13 +28,11 @@ This section shows the settings used in the demo/example for various MCU modules
 ### System Module Settings
 
 The MCU uses the high frequency external oscillator (10MHz), and the clock is set to 4*PLL (40 MHz).
-
 <br><img src="images/System_Setting.PNG" width="600">
 
 ### ADCC Settings
 
 The ADCC is configured with a clock of FOSC/2.
-
 <br><img src="images/ADC_CommonSetting.PNG" width="600">
 <br><img src="images/ADC_Context1_Setting.PNG" width="600">
 <br><img src="images/ADC_Context2_Setting.PNG" width="600">
@@ -45,13 +42,11 @@ The ADCC is configured with a clock of FOSC/2.
 ### TIMER0 Settings
 
 The timer0 is configured to 500ms to periodly trigger ADC.
-
 <br><img src="images/Timer0_Setting.PNG" width="600">
 
 ### UART1 Settings
 
 The Uart1 is used to print the result of ADC.
-
 <br><img src="images/UART1_Setting.PNG" width="600">
 
 
@@ -61,25 +56,21 @@ The pins are configured as follows:
 
 - Pin RA0 is set as analog input (ANA0)
 - Pin RA1 is set as analog input (ANA1)
-
-<br><img src="images/Pin_Setting.png" width="600">
+<br><img src="images/Pin_Setting.PNG" width="600">
 
 ### Interrupt Settings
 
 Just one interrupt from ADC Context 4.
-
-<br><img src="images/Interrupt_Setting.png" >
+<br><img src="images/Interrupt_Setting" >
 
 ### Configuration Changed
 
 You should disable JTAG function in configuration bit.
-
-<br><img src="images/Configuration_modified.PNG.png" >
+<br><img src="images/Configuration_modified.PNG" >
 
 ## Demo
 1. After making the above hardware connections, build demo firmware and load the generated hex file onto the PIC18F57Q84 MCU.
 2. When the demo firmware is loaded, you could see the print result from serial terminal.
-
 <br><img src="images/Test_Result.PNG" >
 
 ## Conclusion
