@@ -1,11 +1,8 @@
 # pic18f57q84-adc-channel-sequence
-[![MCHP](images/microchip.png)](https://www.microchip.com)
 
-# UV Index Value to Sound Using ADCC
+In this project the Analog-to-Digital Converter with Computation and Context Module (ADCCC) of the PIC18F57Q84 is used to read two channel (ANA0 & ANA1) by 4 channel sequencer. 
 
-In this project the Analog-to-Digital Converter with Computation (ADCC) of the PIC16F18446 is used to read the UV Click Board. The Numerically Controlled Oscillator (NCO) is used to generate a tone with variable pitch according to the UV level. Since the UV sensor has an offset, the POT1 on the Curiosity board is used to get an adjustable offset which is then subtracted from the sensor reading.
-
-<br><img src="images/HWsetup.jpg" width="600">
+<br><img src="images/hardware_platform.jpg" width="600">
 
 ## Software Used
 - MPLAB® X IDE 5.30 or newer [(microchip.com/mplab/mplab-x-ide)](http://www.microchip.com/mplab/mplab-x-ide)
