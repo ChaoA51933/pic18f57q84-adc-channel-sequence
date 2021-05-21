@@ -37,33 +37,51 @@ The MCU uses the high frequency external oscillator (10MHz), and the clock is se
 The ADCC is configured with a clock of FOSC/2.
 
 <br><img src="images/ADC_CommonSetting.PNG" width="600">
-<br><img src="images/ADC_Context1_Setting.PNG.PNG" width="600">
-<br><img src="images/ADC_Context2_Setting.PNG.PNG" width="600">
-<br><img src="images/ADC_Context3_Setting.PNG.PNG" width="600">
-<br><img src="images/ADC_Context4_Setting.PNG.PNG" width="600">
+<br><img src="images/ADC_Context1_Setting.PNG" width="600">
+<br><img src="images/ADC_Context2_Setting.PNG" width="600">
+<br><img src="images/ADC_Context3_Setting.PNG" width="600">
+<br><img src="images/ADC_Context4_Setting.PNG" width="600">
 
-### NCO Settings
+### TIMER0 Settings
 
-The NCO is configured in FDC mode, with FOSC set as clock source, and an initial output frequency of 1 kHz.
+The timer0 is configured to 500ms to periodly trigger ADC.
 
-<br><img src="images/NCO.png" width="600">
+<br><img src="images/Timer0_Setting.PNG" width="600">
+
+### UART1 Settings
+
+The Uart1 is used to print the result of ADC.
+
+<br><img src="images/UART1_Setting.PNG" width="600">
+
 
 ### Pin Manager Settings
 
 The pins are configured as follows:
 
-- Pin RC2 is set as analog input (ANC2) for reading the UV Click
-- Pin RC0 is set as analog input (ANC0) for reading the POT1
-- Pin RC1 is set to be the output of NCO1
+- Pin RA0 is set as analog input (ANA0)
+- Pin RA1 is set as analog input (ANA1)
 
-<br><img src="images/pinModule.png" width="600">
+<br><img src="images/Pin_Setting.png" width="600">
+
+### Interrupt Settings
+
+Just one interrupt from ADC Context 4.
+
+<br><img src="images/Interrupt_Setting.png" >
+
+### Configuration Changed
+
+You should disable JTAG function in configuration bit.
+
+<br><img src="images/Configuration_modified.PNG.png" >
 
 ## Demo
-1. After making the above hardware connections, build demo firmware and load the generated hex file onto the PIC16F18446 MCU.
-2. When the demo firmware is loaded, listen to the headphones and you will hear a tone
-3. Vary the POT1 to adjust the offset
-4. Vary the UV light intensity on the sensor and notice the changing frequency of the tone.
+1. After making the above hardware connections, build demo firmware and load the generated hex file onto the PIC18F57Q84 MCU.
+2. When the demo firmware is loaded, you could see the print result from serial terminal.
+
+<br><img src="images/Test_Result.PNG" >
 
 ## Conclusion
 
-This example shows how easy it is to use the PIC16F18446 and MCC to read an analog UV light intensity sensor and generate a variable frequency tone using the NCO.
+This example shows the ADC new feature of PIC18F57Q84 - Channel Sequencer and Context.
