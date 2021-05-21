@@ -11,7 +11,7 @@
 # All addresses and the length are given in unqualified hexadecimal
 # in delta units.  Any other numeric values are decimal.
 %PSECTS
-$C:\Users\A51933\AppData\Local\Temp\xcAs67c.o
+$C:\Users\A51933\AppData\Local\Temp\xcAsb8c.o
 idloc IDLOC 5 200000 200000 20 1
 init CODE 0 1A 1A 4 1
 reset_vec CODE 0 0 0 4 1
@@ -657,25 +657,25 @@ $dist/default/production\adc_pic18f57q84.X.production.o
 47F0 text0 CODE >137:C:\work_space\work_space_8\PIC18F57Q84\adtest\pic18f57q84-adc-channel-sequence\adc_pic18f57q84.X\main.c
 47F2 text0 CODE >142:C:\work_space\work_space_8\PIC18F57Q84\adtest\pic18f57q84-adc-channel-sequence\adc_pic18f57q84.X\main.c
 47F2 text0 CODE >145:C:\work_space\work_space_8\PIC18F57Q84\adtest\pic18f57q84-adc-channel-sequence\adc_pic18f57q84.X\main.c
-486E cinit CODE >17587:C:\Users\A51933\AppData\Local\Temp\xcAs67c.s
-486E cinit CODE >17589:C:\Users\A51933\AppData\Local\Temp\xcAs67c.s
-486E cinit CODE >17592:C:\Users\A51933\AppData\Local\Temp\xcAs67c.s
-486E cinit CODE >17640:C:\Users\A51933\AppData\Local\Temp\xcAs67c.s
-4872 cinit CODE >17641:C:\Users\A51933\AppData\Local\Temp\xcAs67c.s
-4874 cinit CODE >17642:C:\Users\A51933\AppData\Local\Temp\xcAs67c.s
-4874 cinit CODE >17643:C:\Users\A51933\AppData\Local\Temp\xcAs67c.s
-4876 cinit CODE >17644:C:\Users\A51933\AppData\Local\Temp\xcAs67c.s
-4878 cinit CODE >17645:C:\Users\A51933\AppData\Local\Temp\xcAs67c.s
-487A cinit CODE >17653:C:\Users\A51933\AppData\Local\Temp\xcAs67c.s
-487C cinit CODE >17654:C:\Users\A51933\AppData\Local\Temp\xcAs67c.s
-487E cinit CODE >17655:C:\Users\A51933\AppData\Local\Temp\xcAs67c.s
-4880 cinit CODE >17656:C:\Users\A51933\AppData\Local\Temp\xcAs67c.s
-4882 cinit CODE >17657:C:\Users\A51933\AppData\Local\Temp\xcAs67c.s
-4884 cinit CODE >17658:C:\Users\A51933\AppData\Local\Temp\xcAs67c.s
-4886 cinit CODE >17659:C:\Users\A51933\AppData\Local\Temp\xcAs67c.s
-4888 cinit CODE >17665:C:\Users\A51933\AppData\Local\Temp\xcAs67c.s
-4888 cinit CODE >17667:C:\Users\A51933\AppData\Local\Temp\xcAs67c.s
-488A cinit CODE >17668:C:\Users\A51933\AppData\Local\Temp\xcAs67c.s
+486E cinit CODE >17587:C:\Users\A51933\AppData\Local\Temp\xcAsb8c.s
+486E cinit CODE >17589:C:\Users\A51933\AppData\Local\Temp\xcAsb8c.s
+486E cinit CODE >17592:C:\Users\A51933\AppData\Local\Temp\xcAsb8c.s
+486E cinit CODE >17640:C:\Users\A51933\AppData\Local\Temp\xcAsb8c.s
+4872 cinit CODE >17641:C:\Users\A51933\AppData\Local\Temp\xcAsb8c.s
+4874 cinit CODE >17642:C:\Users\A51933\AppData\Local\Temp\xcAsb8c.s
+4874 cinit CODE >17643:C:\Users\A51933\AppData\Local\Temp\xcAsb8c.s
+4876 cinit CODE >17644:C:\Users\A51933\AppData\Local\Temp\xcAsb8c.s
+4878 cinit CODE >17645:C:\Users\A51933\AppData\Local\Temp\xcAsb8c.s
+487A cinit CODE >17653:C:\Users\A51933\AppData\Local\Temp\xcAsb8c.s
+487C cinit CODE >17654:C:\Users\A51933\AppData\Local\Temp\xcAsb8c.s
+487E cinit CODE >17655:C:\Users\A51933\AppData\Local\Temp\xcAsb8c.s
+4880 cinit CODE >17656:C:\Users\A51933\AppData\Local\Temp\xcAsb8c.s
+4882 cinit CODE >17657:C:\Users\A51933\AppData\Local\Temp\xcAsb8c.s
+4884 cinit CODE >17658:C:\Users\A51933\AppData\Local\Temp\xcAsb8c.s
+4886 cinit CODE >17659:C:\Users\A51933\AppData\Local\Temp\xcAsb8c.s
+4888 cinit CODE >17665:C:\Users\A51933\AppData\Local\Temp\xcAsb8c.s
+4888 cinit CODE >17667:C:\Users\A51933\AppData\Local\Temp\xcAsb8c.s
+488A cinit CODE >17668:C:\Users\A51933\AppData\Local\Temp\xcAsb8c.s
 # %SYMTAB Section
 # An enumeration of all symbols in the program.
 # The beginning of the section is indicated by %SYMTAB.
@@ -700,7 +700,7 @@ _ADC_DefaultContext2Threshold_ISR 0 0 ABS 0 - dist/default/production\adc_pic18f
 __end_of_ADC_SetActiveClockTuningInterruptHandler 4960 0 CODE 0 text17 dist/default/production\adc_pic18f57q84.X.production.o
 __end_of_ADC_ADCH4_ISR 47C8 0 CODE 0 text23 dist/default/production\adc_pic18f57q84.X.production.o
 __Hibigdata 0 0 CODE 0 ibigdata dist/default/production\adc_pic18f57q84.X.production.o
-__mediumconst 0 0 MEDIUMCONST 0 mediumconst C:\Users\A51933\AppData\Local\Temp\xcAs67c.o
+__mediumconst 0 0 MEDIUMCONST 0 mediumconst C:\Users\A51933\AppData\Local\Temp\xcAsb8c.o
 __Heeprom_data 0 0 EEDATA 0 eeprom_data dist/default/production\adc_pic18f57q84.X.production.o
 __end_of_UART1_SetFramingErrorHandler 490C 0 CODE 0 text5 dist/default/production\adc_pic18f57q84.X.production.o
 __end_of_UART1_SetOverrunErrorHandler 48FE 0 CODE 0 text4 dist/default/production\adc_pic18f57q84.X.production.o
@@ -735,7 +735,7 @@ _WPUC 411 0 ABS 0 - dist/default/production\adc_pic18f57q84.X.production.o
 _WPUD 419 0 ABS 0 - dist/default/production\adc_pic18f57q84.X.production.o
 _WPUE 421 0 ABS 0 - dist/default/production\adc_pic18f57q84.X.production.o
 _WPUF 429 0 ABS 0 - dist/default/production\adc_pic18f57q84.X.production.o
-___sp 0 0 STACK 2 stack C:\Users\A51933\AppData\Local\Temp\xcAs67c.o
+___sp 0 0 STACK 2 stack C:\Users\A51933\AppData\Local\Temp\xcAsb8c.o
 _dbuf 584 0 BANK5 1 bssBANK5 dist/default/production\adc_pic18f57q84.X.production.o
 _dtoa 3846 0 CODE 0 text32 dist/default/production\adc_pic18f57q84.X.production.o
 _main 47C8 0 CODE 0 text0 dist/default/production\adc_pic18f57q84.X.production.o
@@ -745,7 +745,7 @@ abs@a 513 0 COMRAM 1 cstackCOMRAM dist/default/production\adc_pic18f57q84.X.prod
 pad@i 51A 0 COMRAM 1 cstackCOMRAM dist/default/production\adc_pic18f57q84.X.production.o
 pad@p 517 0 COMRAM 1 cstackCOMRAM dist/default/production\adc_pic18f57q84.X.production.o
 pad@w 51C 0 COMRAM 1 cstackCOMRAM dist/default/production\adc_pic18f57q84.X.production.o
-start 1A 0 CODE 0 init C:\Users\A51933\AppData\Local\Temp\xcAs67c.o
+start 1A 0 CODE 0 init C:\Users\A51933\AppData\Local\Temp\xcAsb8c.o
 ___aomod@counter 511 0 COMRAM 1 cstackCOMRAM dist/default/production\adc_pic18f57q84.X.production.o
 __size_of___aodiv 0 0 ABS 0 - dist/default/production\adc_pic18f57q84.X.production.o
 __size_of___aomod 0 0 ABS 0 - dist/default/production\adc_pic18f57q84.X.production.o
@@ -764,11 +764,11 @@ _ADC_ConversionComplete_ISR 5B3 0 BANK5 1 nvBANK5 dist/default/production\adc_pi
 __size_of_SYSTEM_Initialize 0 0 ABS 0 - dist/default/production\adc_pic18f57q84.X.production.o
 __size_of_vfpfcnvrt 0 0 ABS 0 - dist/default/production\adc_pic18f57q84.X.production.o
 _ADC_SetContext1ThresholdInterruptHandler 4944 0 CODE 0 text16 dist/default/production\adc_pic18f57q84.X.production.o
-__accesstop 560 0 ABS 0 - C:\Users\A51933\AppData\Local\Temp\xcAs67c.o
-intlevel0 0 0 CODE 0 text C:\Users\A51933\AppData\Local\Temp\xcAs67c.o
-intlevel1 0 0 CODE 0 text C:\Users\A51933\AppData\Local\Temp\xcAs67c.o
-intlevel2 0 0 CODE 0 text C:\Users\A51933\AppData\Local\Temp\xcAs67c.o
-intlevel3 0 0 CODE 0 text C:\Users\A51933\AppData\Local\Temp\xcAs67c.o
+__accesstop 560 0 ABS 0 - C:\Users\A51933\AppData\Local\Temp\xcAsb8c.o
+intlevel0 0 0 CODE 0 text C:\Users\A51933\AppData\Local\Temp\xcAsb8c.o
+intlevel1 0 0 CODE 0 text C:\Users\A51933\AppData\Local\Temp\xcAsb8c.o
+intlevel2 0 0 CODE 0 text C:\Users\A51933\AppData\Local\Temp\xcAsb8c.o
+intlevel3 0 0 CODE 0 text C:\Users\A51933\AppData\Local\Temp\xcAsb8c.o
 __size_of_ADC_Initialize 0 0 ABS 0 - dist/default/production\adc_pic18f57q84.X.production.o
 __LnvFARRAM 0 0 FARRAM 0 nvFARRAM dist/default/production\adc_pic18f57q84.X.production.o
 __Hifardata 0 0 CODE 0 ifardata dist/default/production\adc_pic18f57q84.X.production.o
@@ -810,8 +810,8 @@ _ANSELC 410 0 ABS 0 - dist/default/production\adc_pic18f57q84.X.production.o
 _ANSELD 418 0 ABS 0 - dist/default/production\adc_pic18f57q84.X.production.o
 _ANSELE 420 0 ABS 0 - dist/default/production\adc_pic18f57q84.X.production.o
 _ANSELF 428 0 ABS 0 - dist/default/production\adc_pic18f57q84.X.production.o
-___inthi_sp 0 0 STACK 2 stack C:\Users\A51933\AppData\Local\Temp\xcAs67c.o
-___intlo_sp 0 0 STACK 2 stack C:\Users\A51933\AppData\Local\Temp\xcAs67c.o
+___inthi_sp 0 0 STACK 2 stack C:\Users\A51933\AppData\Local\Temp\xcAsb8c.o
+___intlo_sp 0 0 STACK 2 stack C:\Users\A51933\AppData\Local\Temp\xcAsb8c.o
 __end_of_INTERRUPT_InterruptManager 46D6 0 CODE 0 text22 dist/default/production\adc_pic18f57q84.X.production.o
 __size_ofi2_ADC_EnableChannelSequencer 0 0 ABS 0 - dist/default/production\adc_pic18f57q84.X.production.o
 _ADACTPPS 269 0 ABS 0 - dist/default/production\adc_pic18f57q84.X.production.o
@@ -886,7 +886,7 @@ _U1FIFO 2B0 0 ABS 0 - dist/default/production\adc_pic18f57q84.X.production.o
 __size_of_UART1_SetErrorHandler 0 0 ABS 0 - dist/default/production\adc_pic18f57q84.X.production.o
 __end_of_printf 486E 0 CODE 0 text29 dist/default/production\adc_pic18f57q84.X.production.o
 __size_of_ADC_SetActiveClockTuningInterruptHandler 0 0 ABS 0 - dist/default/production\adc_pic18f57q84.X.production.o
-isa$xinst 0 0 ABS 0 - C:\Users\A51933\AppData\Local\Temp\xcAs67c.o
+isa$xinst 0 0 ABS 0 - C:\Users\A51933\AppData\Local\Temp\xcAsb8c.o
 fputc@fp 505 0 COMRAM 1 cstackCOMRAM dist/default/production\adc_pic18f57q84.X.production.o
 fputs@fp 50E 0 COMRAM 1 cstackCOMRAM dist/default/production\adc_pic18f57q84.X.production.o
 _ADC_DefaultADI_ISR 0 0 ABS 0 - dist/default/production\adc_pic18f57q84.X.production.o
@@ -964,7 +964,7 @@ __Hbank55 0 0 ABS 0 bank55 dist/default/production\adc_pic18f57q84.X.production.
 __Hbigbss 0 0 BIGRAM 1 bigbss dist/default/production\adc_pic18f57q84.X.production.o
 __Hbigram 0 0 ABS 0 bigram dist/default/production\adc_pic18f57q84.X.production.o
 _ADC_Context4Thereshld_ISR 5A7 0 BANK5 1 nvBANK5 dist/default/production\adc_pic18f57q84.X.production.o
-__smallconst 3800 0 SMALLCONST 0 smallconst C:\Users\A51933\AppData\Local\Temp\xcAs67c.o
+__smallconst 3800 0 SMALLCONST 0 smallconst C:\Users\A51933\AppData\Local\Temp\xcAsb8c.o
 __end_of_ADC_SetADIInterruptHandler 496E 0 CODE 0 text18 dist/default/production\adc_pic18f57q84.X.production.o
 __Hcomram 0 0 ABS 0 comram dist/default/production\adc_pic18f57q84.X.production.o
 __Hconfig 300024 0 CONFIG 4 config dist/default/production\adc_pic18f57q84.X.production.o
@@ -1190,11 +1190,11 @@ _LATFbits 4C3 0 ABS 0 - dist/default/production\adc_pic18f57q84.X.production.o
 __Lfarbss 0 0 FARRAM 0 farbss dist/default/production\adc_pic18f57q84.X.production.o
 _strlen 475A 0 CODE 0 text34 dist/default/production\adc_pic18f57q84.X.production.o
 __Lfardata 0 0 FARRAM 0 fardata dist/default/production\adc_pic18f57q84.X.production.o
-isa$std 1 0 ABS 0 - C:\Users\A51933\AppData\Local\Temp\xcAs67c.o
+isa$std 1 0 ABS 0 - C:\Users\A51933\AppData\Local\Temp\xcAsb8c.o
 __size_of_vfprintf 0 0 ABS 0 - dist/default/production\adc_pic18f57q84.X.production.o
 __end_of_UART1_Write 48C4 0 CODE 0 text38 dist/default/production\adc_pic18f57q84.X.production.o
-stackhi 37FF 0 ABS 0 - C:\Users\A51933\AppData\Local\Temp\xcAs67c.o
-stacklo 5BE 0 ABS 0 - C:\Users\A51933\AppData\Local\Temp\xcAs67c.o
+stackhi 37FF 0 ABS 0 - C:\Users\A51933\AppData\Local\Temp\xcAsb8c.o
+stacklo 5BE 0 ABS 0 - C:\Users\A51933\AppData\Local\Temp\xcAsb8c.o
 _ADC_SetContext4ThresholdInterruptHandler 491A 0 CODE 0 text13 dist/default/production\adc_pic18f57q84.X.production.o
 _OSCCON1 AD 0 ABS 0 - dist/default/production\adc_pic18f57q84.X.production.o
 _OSCCON3 AF 0 ABS 0 - dist/default/production\adc_pic18f57q84.X.production.o
@@ -1305,7 +1305,7 @@ __Ltext41 0 0 ABS 0 text41 dist/default/production\adc_pic18f57q84.X.production.
 __Ltext42 0 0 ABS 0 text42 dist/default/production\adc_pic18f57q84.X.production.o
 __Ltext43 0 0 ABS 0 text43 dist/default/production\adc_pic18f57q84.X.production.o
 _ADC_DefaultContext1Threshold_ISR 0 0 ABS 0 - dist/default/production\adc_pic18f57q84.X.production.o
-__ramtop 3800 0 RAM 0 ramtop C:\Users\A51933\AppData\Local\Temp\xcAs67c.o
+__ramtop 3800 0 RAM 0 ramtop C:\Users\A51933\AppData\Local\Temp\xcAsb8c.o
 _vfprintf 461A 0 CODE 0 text30 dist/default/production\adc_pic18f57q84.X.production.o
 __Lpowerup 0 0 CODE 0 powerup dist/default/production\adc_pic18f57q84.X.production.o
 __Leeprom_data 0 0 EEDATA 0 eeprom_data dist/default/production\adc_pic18f57q84.X.production.o
