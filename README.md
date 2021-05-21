@@ -2,8 +2,6 @@
 
 In this project the Analog-to-Digital Converter with Computation and Context Module (ADCCC) of the PIC18F57Q84 is used to read two channel (ANA0 & ANA1) by 4 channel sequencer. 
 
-<br><img src="images/hardware_platform.jpg" width="600">
-
 ## Software Used
 - MPLAB® X IDE 5.45 or newer [(microchip.com/mplab/mplab-x-ide)](http://www.microchip.com/mplab/mplab-x-ide)
 - MPLAB® XC8 2.32 or newer compiler [(microchip.com/mplab/compilers)](http://www.microchip.com/mplab/compilers)
@@ -14,17 +12,15 @@ In this project the Analog-to-Digital Converter with Computation and Context Mod
 
 ## Hardware Used
 - PIC18F57Q84 Curiosity Nano [(DM182029)](https://www.microchip.com/Developmenttools/ProductDetails/DM182029)
-- Digital Power Development Board [(DM330029)](https://www.microchip.com/Developmenttools/ProductDetails/DM182029)
+- Digital Power Development Board [(DM330029)](https://www.microchip.com/DevelopmentTools/ProductDetails/PartNO/DM330029)
 
 ## Setup
 
 In this demo,
 
-- PIC16F18446 (20-pin, PDIP) MCU is used to read an UV Click
-- The NCO of the PIC is used for generating a tone with variable pitch according to the UV light intensity
-- The Curiosity development board is used as it supports a mikroBUS slot for MikroElektronika™ click boards and has got on-chip programmer and debugger.
+- PIC18F57Q84 MCU is used to read an voltage on ANA0 & ANA1.
 
-In order to hear the tone, you need to connect headphones in series with 1k resistor to RC1 and GND.
+<br><img src="images/hardware_platform.jpg" width="600">
 
 ### MCC Settings
 
@@ -32,15 +28,19 @@ This section shows the settings used in the demo/example for various MCU modules
 
 ### System Module Settings
 
-The MCU uses the high frequency internal oscillator (HFINTOSC), and the clock is set to 8 MHz. Watchdog Timer is not used in this demo, so it is disabled.
+The MCU uses the high frequency external oscillator (10MHz), and the clock is set to 4*PLL (40 MHz).
 
-<br><img src="images/systemModule.png" width="600">
+<br><img src="images/System_Setting.PNG" width="600">
 
 ### ADCC Settings
 
-The ADCC is configured with a clock of FOSC/64, basic operation mode.
+The ADCC is configured with a clock of FOSC/2.
 
-<br><img src="images/ADCC.png" width="600">
+<br><img src="images/ADC_CommonSetting.PNG" width="600">
+<br><img src="images/ADC_Context1_Setting.PNG.PNG" width="600">
+<br><img src="images/ADC_Context2_Setting.PNG.PNG" width="600">
+<br><img src="images/ADC_Context3_Setting.PNG.PNG" width="600">
+<br><img src="images/ADC_Context4_Setting.PNG.PNG" width="600">
 
 ### NCO Settings
 
